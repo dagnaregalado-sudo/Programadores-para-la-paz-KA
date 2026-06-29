@@ -1,0 +1,10 @@
+Mantener un registro de cambios con Git es crucial porque convierte el código en una historia trazable, donde cada modificación queda asociada a un autor, fecha y mensaje explicativo.
+Esto permite retroceder ante errores sin pérdidas y entender decisiones técnicas tomadas semanas o meses atrás, facilitando el mantenimiento.
+En equipos, Git evita el caos de archivos duplicados al fusionar ramas de forma ordenada y resolver conflictos de manera consciente y documentada.
+El historial actúa como respaldo automático y como bitácora de auditoría, esencial para cumplir estándares de calidad y normativas de seguridad.
+Las revisiones de código (pull requests) se apoyan en ese registro para discutir cambios antes de integrarlos, mejorando la colaboración.
+Permite experimentar en ramas separadas sin arriesgar la versión estable, fomentando la innovación controlada y el aprendizaje colectivo.
+Etiquetar versiones (tags) vincula el código con entregas concretas, simplificando despliegues y soporte técnico.
+Git funciona como memoria institucional del proyecto, preservando el conocimiento más allá de la rotación de personal.
+También facilita la integración continua y la automatización, ya que los pipelines pueden reaccionar a cambios específicos del historial.
+En resumen, no es solo una herramienta, sino el pilar que sostiene la confianza, la transparencia y la eficiencia en el desarrollo colaborativo.

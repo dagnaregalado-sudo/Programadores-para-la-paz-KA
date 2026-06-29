@@ -1,0 +1,13 @@
+Repositorio: Es el espacio o carpeta principal donde se almacenan todos los archivos de un proyecto,
+junto con el historial completo de sus versiones. No solo guarda el código actual
+sino también cada modificación que se ha hecho desde el principio, lo que permite viajar en el tiempo
+y recuperar versiones anteriores si algo falla. Puede estar alojado en tu computadora (local) o en servidores remotos como GitHub.
+
+Commit: Es una "foto" o captura del estado de todos los archivos en un momento determinado. 
+Cada commit guarda los cambios realizados desde el anterior y viene acompañado de un mensaje que describe brevemente qué se hizo y por qué.
+Así, el commit funciona como una unidad de cambio lógica que permite entender la evolución del proyecto
+y facilita volver a puntos estables o revisar quién hizo cada modificación.
+
+Push:Es la acción de subir o transferir los commits que tienes en tu repositorio local (tu computadora o Codespaces) al repositorio remoto en GitHub.
+Al hacer push, estás sincronizando tu trabajo con el resto del equipo, haciendo que esos cambios estén disponibles para todos y respaldados en la nube.
+Es el paso final para compartir tu progreso y asegurarte de que el código centralizado se mantenga actualizado.
