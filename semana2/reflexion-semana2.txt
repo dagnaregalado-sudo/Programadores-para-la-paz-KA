@@ -1,0 +1,10 @@
+Para un desarrollador, dominar la terminal no es un lujo, sino una necesidad práctica, porque es el entorno nativo donde viven herramientas esenciales como Git, compiladores, gestores de paquetes y servidores locales.
+Navegar y organizar archivos mediante comandos como mkdir, ls, cp, mv o grep permite ejecutar tareas repetitivas con una velocidad y precisión que las interfaces gráficas no igualan, especialmente cuando se manejan cientos de archivos anidados en estructuras complejas.
+Además, la terminal elimina capas de abstracción y te obliga a entender la estructura real del proyecto, las rutas relativas y absolutas, y los permisos, lo cual previene errores tontos al momento de desplegar en producción.
+La automatización es otro pilar fundamental, porque saber mover archivos con scripts o pipelines convierte tareas manuales en procesos confiables y reproducibles, algo vital en integración continua.
+También facilita la depuración, ya que muchos logs y mensajes de error solo se muestran allí, y poder leerlos en contexto ahorra horas de frustración y búsqueda infructuosa.
+Por último, trabajar en terminal es un lenguaje común entre desarrolladores, sistemas operativos y servidores (Linux, macOS, WSL), lo que te hace portable y adaptable a cualquier equipo o infraestructura sin depender de un IDE específico.
+Con la terminal, no necesitas recordar atajos de menús ni lidiar con versiones de interfaces gráficas, porque los comandos funcionan igual en cualquier entorno.
+Además, el acceso remoto a servidores se vuelve sencillo y seguro mediante SSH, algo que sería muy incómodo sin línea de comandos.
+La terminal también permite encadenar comandos con tuberías y redirecciones, creando flujos de trabajo personalizados y muy potentes en pocas líneas.
+En resumen, no se trata de nostalgia ni de postureo geek, sino de eficiencia, control y autonomía real sobre tu entorno de desarrollo.
