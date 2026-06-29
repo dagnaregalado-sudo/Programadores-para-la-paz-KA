@@ -1,0 +1,11 @@
+Construir herramientas propias con tecnologías abiertas como Node.js otorga a las comunidades soberanía digital, al no depender de plataformas privadas que imponen reglas o extraen datos.
+Node.js, liviano y con un vasto ecosistema gratuito, baja la barrera técnica: grupos con conocimientos básicos de JavaScript pueden crear prototipos funcionales en semanas.
+El código abierto permite auditoría comunitaria, donde cualquier miembro puede revisar el manejo de datos, garantizando transparencia y confianza.
+Al tener control total, las herramientas se adaptan rápidamente a cambios normativos o crisis sin esperar actualizaciones externas.
+Fomenta la apropiación tecnológica, porque los usuarios también pueden contribuir a mejorar el software, rompiendo el rol pasivo de consumidor.
+Promueve la reutilización: lo creado para mapear huertos puede adaptarse a monitorear ruido o gestionar presupuestos participativos.
+Tecnologías abiertas evitan obsolescencia programada y costos de licencia, haciendo los proyectos sostenibles a largo plazo.
+Facilita la colaboración con otras iniciativas, al compartir código y conocimientos bajo estándares comunes.
+Fortalece la resiliencia comunitaria frente a la centralización digital, generando autonomía y aprendizaje colectivo.
+En esencia, no es solo programar, sino tejer redes de empoderamiento ciudadano con herramientas que responden a sus necesidades reales.
+
