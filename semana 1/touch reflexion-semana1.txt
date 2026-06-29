@@ -1,0 +1,10 @@
+El uso responsable de la información en internet es el cimiento ético de la participación ciudadana digital, porque exige verificar fuentes, contrastar datos y compartir contenido con integridad para fortalecer el debate público informado.
+Esta misma lógica de transparencia y trazabilidad se aplica al trabajo técnico con Git, donde cada cambio queda registrado, permitiendo auditoría y colaboración ordenada entre equipos diversos.
+La participación ciudadana se vuelve efectiva cuando se apoya en información fiable, y Git provee el andamiaje para que equipos trabajen sobre ese conocimiento de manera sincronizada y responsable.
+La organización con ramas, commits y revisiones fomenta una cultura de rendición de cuentas similar a la que exige una ciudadanía activa ante sus gobernantes.
+En ambos ámbitos, el respeto por el dato original y el registro de las transformaciones evita malentendidos y fake news, promoviendo un ecosistema digital más confiable.
+La tecnología no sustituye el juicio crítico, sino que lo potencia al ofrecer herramientas que facilitan la verificación y el seguimiento de la información.
+La ética de la información y la disciplina del versionado convergen en un mismo principio: la confianza se construye con acciones verificables y colaborativas.
+Git permite que cada contribución sea trazable, lo que refuerza la responsabilidad individual y colectiva en proyectos compartidos.
+Así, tanto en la participación ciudadana como en el desarrollo colaborativo, la transparencia y el registro riguroso son valores esenciales.
+Finalmente, la confianza digital se sostiene cuando cada persona asume su rol con responsabilidad, verificando, registrando y colaborando con integridad.
