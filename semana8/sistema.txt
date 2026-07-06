@@ -1,0 +1,59 @@
+¿QUÉ INFORMACIÓN MUESTRA CADA COMANDO?
+
+uname -a    → Muestra todo del kernel: SO, hostname, versión,
+              arquitectura y fecha de compilación.
+
+hostname    → Muestra el nombre de la máquina en la red.
+              Con -I muestra las direcciones IP asignadas.
+
+whoami      → Muestra el nombre del usuario actual en la sesión.
+
+pwd         → Muestra la ruta absoluta del directorio actual.
+
+ls -la      → Lista todos los archivos (incluidos ocultos) con
+              permisos, propietario, tamaño y fecha.
+
+df -h       → Muestra espacio usado y disponible en discos,
+              en formato legible (GB, MB).
+
+free -h     → Muestra memoria RAM y swap usada y disponible.
+
+uptime      → Tiempo activo, usuarios conectados y carga promedio.
+
+ps aux      → Muestra TODOS los procesos en ejecución con PID,
+              usuario, CPU, memoria y comando.
+
+top         → Muestra en tiempo real procesos y consumo de
+              recursos (CPU y memoria).
+
+netstat -tuln → Muestra puertos abiertos y conexiones de red
+              activas (servicios escuchando).
+
+ip a        → Muestra interfaces de red con sus IP y estado.
+
+¿POR QUÉ ES ÚTIL CONOCER ESTA INFORMACIÓN AL ADMINISTRAR UN SERVIDOR?
+
+1. Diagnosticar problemas de rendimiento (top, free, df -h)
+   → Detecta falta de memoria, CPU saturada o discos llenos.
+
+2. Identificar procesos maliciosos o anómalos (ps aux, netstat)
+   → Encuentra procesos desconocidos o conexiones sospechosas.
+
+3. Planificar actualizaciones y mantenimiento (uptime, uname -a)
+   → Conoce versión del sistema y tiempo activo para programar
+   reinicios sin afectar servicios.
+
+4. Auditar accesos y configuraciones (whoami, hostname)
+   → Verifica quién está conectado y desde qué equipo.
+
+5. Optimizar asignación de recursos (df -h, free -h)
+   → Evalúa consumo para decidir ampliar capacidad o redistribuir
+   cargas.
+
+6. Agilizar resolución de incidencias
+   → Responde rápidamente ante fallos sin depender de interfaces
+   gráficas.
+
+7. Documentar el estado del servidor
+   → Sirve como evidencia o bitácora para comparar y anticipar
+   fallos futuros.

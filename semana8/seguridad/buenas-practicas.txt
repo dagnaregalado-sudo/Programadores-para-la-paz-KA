@@ -1,0 +1,4 @@
+1. Activar la autenticación de dos factores (2FA)
+2. Realizar copias de seguridad periódicas
+3. Navegar solo en sitios web seguros (HTTPS)
+   

@@ -1,0 +1,9 @@
+1. Implementar roles y permisos diferenciados
+
+2. Realizar auditorías de seguridad periódicas
+
+3. Validar y sanitizar todos los datos de entrada
+
+4. Establecer políticas de cierre de sesión automático
+
+5. Cifrar la información almacenada (datos en reposo)
