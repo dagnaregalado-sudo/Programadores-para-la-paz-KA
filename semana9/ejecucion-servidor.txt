@@ -1,0 +1,94 @@
+¿QUÉ OCURRE CUANDO EJECUTAS node server.js?
+
+Al ejecutar el comando "node server.js" en la terminal, ocurre lo
+siguiente:
+
+- Node.js busca y carga el archivo server.js en el directorio
+  actual.
+
+- Lee todo el código JavaScript y lo compila para ejecutarlo.
+
+- Crea un servidor HTTP (o el tipo de servidor que esté definido
+  en el código, como Express, HTTP nativo, etc.).
+
+- El servidor se inicia y comienza a "escuchar" en un puerto
+  específico (generalmente definido en el archivo, por ejemplo,
+  puerto 3000, 8080 o 80).
+
+- El proceso de Node.js se mantiene activo en la terminal,
+  esperando peticiones de los clientes (navegadores, aplicaciones,
+  etc.).
+
+- La terminal queda ocupada por el proceso; no podrás escribir
+  otros comandos hasta que detengas el servidor con Ctrl+C.
+
+- Si hay errores en el código (sintaxis, falta de dependencias,
+  puerto en uso, etc.), el servidor falla al iniciar y muestra
+  un mensaje de error en la terminal.
+
+- Una vez iniciado correctamente, el servidor puede recibir
+  peticiones y responder con datos, páginas web, JSON, etc.
+
+¿QUÉ MENSAJE APARECE EN LA TERMINAL?
+
+  Depende de lo que tenga programado el archivo server.js, pero
+generalmente aparece algo como:
+
+Ejemplo 1 (servidor HTTP básico):
+
+-Servidor corriendo en http://localhost:3000
+
+Ejemplo 2 (con Express):
+
+-Servidor escuchando en el puerto 3000
+
+Ejemplo 3 (con mensaje personalizado):
+
+-Servidor iniciado correctamente en el puerto 8080
+Esperando peticiones...
+
+Ejemplo 4 (si hay error):
+
+-Error: listen EADDRINUSE: address already in use :::3000
+    (El puerto ya está ocupado por otro proceso)
+
+O también puede mostrar mensajes de depuración, logs de
+arranque o confirmaciones de conexión a bases de datos.
+
+¿QUÉ SUCEDE CUANDO VISITAS LA RUTA /estado?
+
+Al visitar la ruta "/estado" (por ejemplo, en el navegador con
+http://localhost:3000/estado), ocurre lo siguiente:
+
+- El navegador envía una petición GET al servidor solicitando
+  esa ruta específica.
+
+- El servidor recibe la petición y busca en su código una ruta
+  que coincida con "/estado".
+
+- Si existe una ruta definida para "/estado", el servidor
+  ejecuta la función asociada y genera una respuesta.
+
+- La respuesta puede ser de diferentes tipos según cómo esté
+  programada:
+
+  a) Mensaje de texto: "Servidor funcionando correctamente"
+  b) JSON: {"estado": "activo", "timestamp": "2026-07-05"}
+  c) Página HTML con información del sistema
+  d) Redirección a otra ruta
+
+- La respuesta viaja de vuelta al navegador y se muestra en
+  pantalla.
+
+- Si NO existe una ruta definida para "/estado", el servidor
+  responde con un error 404 (No encontrado).
+
+- La terminal del servidor muestra un log de la petición,
+  similar a:
+  GET /estado 200 5.234 ms - 32
+  (Esto indica que se recibió una petición GET, respondió con
+  código 200 (éxito), tardó 5.234 ms y envió 32 bytes).
+
+- Si el código tiene lógica adicional (como consultar una base
+  de datos), el servidor ejecuta esas operaciones antes de
+  responder.

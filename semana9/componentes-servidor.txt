@@ -1,0 +1,28 @@
+1. SISTEMA OPERATIVO:
+
+Es el software base que administra el hardware (CPU, memoria, discos, red) y proporciona el entorno donde se ejecutan todas
+las aplicaciones. Gestiona los procesos, la asignación de recursos y la comunicación entre el software y los dispositivos
+físicos del servidor.
+
+2. NODE.JS:
+
+Es un entorno de ejecución que permite ejecutar código JavaScript en el lado del servidor, fuera del navegador. Está basado en el
+motor V8 de Google y utiliza un modelo asíncrono y orientado a eventos, ideal para manejar muchas conexiones simultáneas sin
+bloquear el flujo de ejecución.
+
+3. APLICACIÓN SERVER.JS:
+
+Es el archivo JavaScript que contiene el código de nuestro servidor web personalizado. Define las rutas, la lógica de
+negocio, la conexión a bases de datos y cómo responder a cada petición que llega desde los clientes (navegadores o apps).
+
+4. PUERTO:
+
+Es un número que identifica un canal de comunicación específico dentro de una dirección IP, permitiendo que el sistema operativo
+distinga entre diferentes servicios que corren en el mismo servidor. Por ejemplo, el puerto 80 para HTTP, 443 para HTTPS y
+3000 para servidores en desarrollo, así el tráfico llega al servicio correcto.
+
+5. LOGS:
+
+Son archivos de registro que almacenan cronológicamente todos los eventos, peticiones, errores y advertencias que ocurren en el
+servidor. Son fundamentales para monitorear el rendimiento, depurar fallos, realizar auditorías de seguridad y entender el
+comportamiento de los usuarios en la plataforma.

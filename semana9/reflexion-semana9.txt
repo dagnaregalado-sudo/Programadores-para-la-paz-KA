@@ -1,0 +1,10 @@
+La estabilidad garantiza que los ciudadanos puedan acceder y participar en cualquier momento sin interrupciones.
+La seguridad protege los datos personales de los usuarios, evitando filtraciones que vulneren su privacidad.
+Un servidor confiable genera credibilidad, haciendo que la comunidad confíe y use activamente la plataforma.
+Previene la pérdida de información valiosa como reportes, votaciones o propuestas ciudadanas ya registradas.
+Evita ataques cibernéticos que podrían deshabilitar el sistema o manipular los resultados de procesos participativos.
+Asegura que todas las decisiones tomadas en la plataforma sean legítimas y no estén alteradas por terceros.
+Reduce costos de mantenimiento y recuperación, ya que un servidor estable necesita menos intervenciones de emergencia.
+Permite escalar el servicio cuando la comunidad crece, adaptándose a más usuarios sin perder rendimiento.
+Facilita el cumplimiento de leyes de protección de datos, evitando sanciones legales a los responsables.
+En definitiva, un servidor estable y seguro es la base para una participación ciudadana digital efectiva y confiable.
