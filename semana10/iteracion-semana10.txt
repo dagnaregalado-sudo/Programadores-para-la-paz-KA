@@ -1,0 +1,20 @@
+1. ¿Qué 2 tareas del backlog harías primero?
+
+Tarea A: Implementar el formulario de reporte con foto, ubicación y descripción.
+Tarea B: Desplegar la vista de lista/mapa de reportes activos (pública).
+
+2. ¿Por qué son las más importantes?
+
+- La Tarea A es la base del sistema: sin reportes, no hay veeduría. Es el "corazón" funcional que permite a la comunidad generar evidencia.
+- La Tarea B es la segunda porque da transparencia inmediata: evita que la gente reporte lo mismo, genera confianza al ver que los casos son visibles, y permite que cualquier vecino (sin registrarse) pueda consultar el estado.
+- Juntas forman un ciclo mínimo viable: "registro + consulta". Con solo estas dos, la solución ya entrega valor real en la primera semana.
+
+3. ¿Qué significa para mí que una tarea esté "terminada"?
+
+Significa que el código cumple con los criterios de aceptación, está integrado al entorno principal y puede ser usado por un usuario real sin que el equipo tenga que intervenir manualmente.
+
+DEFINICIÓN DE "TERMINADO" (mínimo 3 criterios):
+
+1. El código pasa todas las pruebas automatizadas (unitarias y de integración) sin errores críticos.
+2. La funcionalidad fue probada manualmente por al menos otro miembro del equipo en un entorno de pruebas (staging) y se comporta como se espera.✅ 3. El código está fusionado (merge) en la rama principal del repositorio, con su respectivo mensaje de commit claro y actualizada la documentación básica (si aplica).
+3. (Extra) La historia de usuario en el backlog se marca como "entregada" y se notifica al product owner o al resto del equipo.

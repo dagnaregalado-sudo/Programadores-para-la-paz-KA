@@ -1,0 +1,9 @@
+Como vecino/ciudadano,quiero reportar una falla o anomalía en un servicio público (con foto, ubicación y descripción) para que quede evidencia digital y la comunidad pueda visibilizarla ante las autoridades.
+
+Como cualquier usuario de la plataforma,quiero ver un mapa o lista con todos los reportes activos y resueltos en mi barrio para conocer el estado de los problemas y evitar duplicar reportes.
+
+Como líder de la veeduría,quiero recibir un resumen semanal por correo electrónico con los reportes nuevos y su estado para dar seguimiento periódico sin tener que revisar la plataforma a diario.
+
+Como miembro del comité de seguimiento,quiero cambiar el estado de un reporte (recibido, en proceso, resuelto, sin solución) y dejar un comentario para mantener actualizada a la comunidad sobre las acciones tomadas.
+
+Como coordinador de la veeduría,quiero generar un reporte PDF con todos los casos del mes para presentarlo en reuniones con la alcaldía para tener un respaldo formal y profesional de nuestra gestión.

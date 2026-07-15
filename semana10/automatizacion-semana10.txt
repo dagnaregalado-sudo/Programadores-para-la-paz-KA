@@ -1,0 +1,58 @@
+1. ¿QUÉ EVENTO ACTIVA EL FLUJO?
+
+Evento: Creación de un nuevo reporte en la plataforma (cuando un ciudadano envía el formulario y se guarda en la base de datos).
+
+Disparador en n8n: Webhook (POST) o conexión directa a la base de datos (MySQL/PostgreSQL) con trigger "ON INSERT".
+
+2. ¿QUÉ MENSAJE SE ENVIARÍA A TELEGRAM?
+
+Mensaje tipo alerta resumida (sin datos personales):
+
+ *NUEVO REPORTE CIUDADANO*
+
+Código: #R-2026-0147  
+Categoría: Alumbrado público  
+Zona: Comuna 3 - Barrio Las Flores  
+Fecha: 14/07/2026 - 10:32 a.m.
+
+Revisar en plataforma: [Enlace al reporte interno]
+
+*Acción sugerida:* Asignar a técnico de zona.
+
+
+3. ¿QUÉ INFORMACIÓN NO DEBERÍA ENVIARSE POR SEGURIDAD?
+
+**NUNCA enviar por Telegram** (canal no cifrado extremo-a-extremo por defecto):
+
+- Nombre completo del denunciante.
+- Número de identificación (cédula, pasaporte, etc.).
+- Dirección exacta (número de casa, apartamento, referencia puntual).
+- Número de teléfono o correo electrónico del ciudadano.
+- Coordenadas GPS precisas (solo zona o barrio).
+- Claves, tokens, o cualquier credencial de acceso.
+- Datos de menores de edad o información de salud.
+- Fotografías que muestren rostros o placas de vehículos.
+
+**Sí se puede enviar** (información agregada y no personal):
+
+- Código interno del reporte (anonimizado).
+- Categoría del problema (ej. "Agua potable").
+- Zona o comuna (sin dirección exacta).
+- Fecha y hora del reporte.
+- Estado actual (ej. "Pendiente").
+- Enlace acortado al sistema (con autenticación requerida).
+
+4. FLUJO COMPLETO EN n8n (pasos):
+
+Paso 1: Webhook recibe POST con datos del nuevo reporte (solo campos permitidos).
+Paso 2: Nodo "Function" filtra y extrae solo: id, categoría, zona, fecha, estado.
+Paso 3: Nodo "HTTP Request" genera un enlace interno al reporte (ej. https://veeduria/app/reportes/0147).
+Paso 4: Nodo "Telegram" envía el mensaje formateado al grupo de coordinadores.
+Paso 5: (Opcional) Nodo "Respond to Webhook" confirma recepción al sistema origen.
+
+5. MEDIDAS DE SEGURIDAD ADICIONALES:
+
+- El webhook solo acepta peticiones desde IPs conocidas (filtro en n8n).
+- El token de Telegram se almacena como variable de entorno, no en el código.
+- El mensaje NO contiene información que permita reidentificar al denunciante.
+- Los logs de n8n no registran datos sensibles (configuración de niveles).
