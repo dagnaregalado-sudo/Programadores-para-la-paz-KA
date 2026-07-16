@@ -1,0 +1,23 @@
+El ciudadano inicia sesión o se registra de forma rápida (primer clic).
+El sistema valida su identidad mediante correo electrónico, número de teléfono o redes sociales, y crea un perfil temporal si es nuevo, para asegurar que cada apoyo sea único y verificable.
+
+El ciudadano crea una nueva petición (segundo clic).
+Completa un formulario mínimo con: título, descripción breve, categoría (ej. medio ambiente, salud, educación) y una meta de apoyos necesarios. Al enviar, el sistema asigna un ID único y guarda la petición en la base de datos con estado "activa".
+
+El sistema genera automáticamente una página pública y un enlace único para la petición.
+La petición queda visible en el portal con un contador de apoyos en cero. Además, el sistema crea un código QR y un botón de "compartir" para facilitar su difusión en redes sociales y mensajería.
+
+Otros ciudadanos encuentran la petición y la apoyan con un solo clic (tercer clic para ellos).
+Al hacer clic en "Apoyar", el sistema registra el voto, valida que no sea duplicado (mismo usuario en la misma petición) y aumenta el contador en tiempo real. El sistema también guarda la fecha, hora y ubicación aproximada del apoyo para estadísticas.
+
+El sistema monitorea el progreso y, al alcanzar la meta de apoyos, cambia el estado a "lista para enviar".
+Internamente, un proceso programado revisa cada hora las peticiones que cumplieron su meta. Una vez superada, el sistema bloquea nuevos apoyos y notifica al creador por correo electrónico y notificación push.
+
+El sistema genera un documento PDF profesional con la petición y todos los apoyos (firmas digitales con fecha/hora).
+El PDF incluye: título, descripción, número total de apoyos, gráfico de evolución, lista anonimizada de los primeros 100 firmantes y un código de verificación. Este archivo se guarda en la nube y se asocia al expediente de la petición.
+
+El sistema envía el PDF al creador y a la entidad destinataria (ej. ayuntamiento, ministerio).
+El creador recibe un enlace para descargar el PDF y un resumen ejecutivo. Simultáneamente, el sistema envía el documento por correo electrónico certificado a la institución correspondiente (según la categoría seleccionada) y genera un comprobante de entrega con sello de tiempo.
+
+El sistema archiva la petición y abre un período de seguimiento.
+La petición pasa a estado "entregada". El creador y los apoyantes pueden recibir actualizaciones si la entidad responde. El sistema guarda todo el historial de acciones (creación, apoyos, generación PDF, envío) en un registro de auditoría para futuras consultas.
