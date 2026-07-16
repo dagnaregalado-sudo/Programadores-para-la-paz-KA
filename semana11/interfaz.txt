@@ -1,0 +1,39 @@
+
+[CREAR NUEVA CAUSA]                                 
+
+Título: [________________________]          
+Descripción: [________________________]    
+Fecha límite: [____/____/____]            
+Categoría: [▼ Seleccionar]                
+Ubicación: [________________________]      
+[  CREAR CAUSA  ]                           
+
+──── CAUSAS DISPONIBLES ────                   
+
+Reforestación del Parque Central         
+Descripción: Plantaremos 200 árboles en el  
+parque para recuperar áreas verdes.         
+Fecha: 15/08/2026                          
+Ubicación: Parque Central, Zona 3          
+Categoría: Medio Ambiente                  
+48 apoyos   [ APOYAR ]                  
+
+Biblioteca Comunitaria Móvil             
+Descripción: Llevaremos libros a barrios con difícil acceso a bibliotecas.          
+Fecha: 22/08/2026                       
+Ubicación: Distrito Norte                  
+Categoría: Educación                       
+32 apoyos   [ APOYAR ]                  
+
+Huerto Comunitario Urbano                
+Descripción: Crearemos un huerto en el      
+terreno abandonado de la calle 5.          
+Fecha: 05/09/2026                          
+Ubicación: Calle 5, Zona 1                 
+Categoría: Alimentación                     
+15 apoyos   [ APOYAR ]                  
+
+[Cargar más causas...]                               
+                                                    
+──── INFORMACIÓN ────                               
+|  Total de causas: 12  |  Apoyos totales: 245       

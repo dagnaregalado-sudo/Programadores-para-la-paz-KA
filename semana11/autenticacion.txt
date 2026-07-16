@@ -1,0 +1,8 @@
+El login es el proceso de autenticación que valida la identidad del usuario mediante credenciales como usuario y contraseña, otorgando acceso a la aplicación.
+Las rutas protegidas son aquellas que requieren verificar que el usuario tenga una sesión activa y permisos específicos para acceder a su contenido.
+Si estas rutas no estuvieran protegidas, cualquier persona podría ingresar a áreas sensibles como perfiles, paneles de control o configuraciones privadas.
+La protección se implementa generalmente con middleware que revisa tokens de acceso o cookies de sesión antes de mostrar la información solicitada.
+En cuanto a la información que no debe exponerse públicamente, están los datos personales como DNI, correo electrónico, teléfono y domicilio completo.
+También deben mantenerse ocultas las credenciales de acceso, contraseñas, tokens de autenticación y claves de integración con servicios externos.
+El historial financiero, médico, de compras, ubicación en tiempo real y metadatos del dispositivo son datos confidenciales que nunca deben ser públicos.
+Finalmente, exponer la estructura interna de la base de datos o rutas del servidor facilita ataques de suplantación, fraude y vulnerabilidades graves.

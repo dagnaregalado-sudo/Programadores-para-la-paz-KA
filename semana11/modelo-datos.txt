@@ -1,0 +1,61 @@
+Entidad: Usuario
+Campos principales:
+
+id (número, clave primaria)
+
+nombre_completo (texto)
+
+correo_electronico (texto, único)
+
+ciudad (texto)
+
+fecha_registro (fecha y hora)
+
+puntuacion_confianza (número decimal, promedio de calificaciones recibidas)
+
+Propósito:
+Guardar los datos de las personas registradas en la plataforma. Permite identificar quién ofrece o solicita habilidades, y también sirve para calcular la reputación de cada miembro de la comunidad.
+
+Entidad: Habilidad
+Campos principales:
+
+id (número, clave primaria)
+
+nombre (texto, por ejemplo: "Reparación de bicicletas", "Clases de inglés")
+
+categoria (texto, por ejemplo: "Técnica", "Idiomas", "Artes")
+
+descripcion (texto largo)
+
+tipo (texto, con valores: "ofrecida" o "solicitada")
+
+usuario_id (número, clave foránea que referencia a Usuario)
+
+fecha_publicacion (fecha y hora)
+
+Propósito:
+Registrar cada habilidad que un usuario publica, ya sea para ofrecer ayuda o para pedirla. Esto permite que otros usuarios encuentren con quién intercambiar y facilita la búsqueda por categorías.
+
+Entidad: Intercambio
+Campos principales:
+
+id (número, clave primaria)
+
+habilidad_ofrecida_id (número, clave foránea a Habilidad)
+
+habilidad_solicitada_id (número, clave foránea a Habilidad)
+
+usuario_oferente_id (número, clave foránea a Usuario)
+
+usuario_solicitante_id (número, clave foránea a Usuario)
+
+estado (texto, con valores: "pendiente", "aceptado", "completado", "cancelado")
+
+fecha_creacion (fecha y hora)
+
+fecha_completado (fecha y hora, puede ser nulo)
+
+comentario (texto largo, opcional)
+
+Propósito:
+Representar el vínculo entre dos usuarios que acuerdan un intercambio de habilidades. Permite dar seguimiento al estado de la transacción, saber quién ofrece qué y quién solicita qué, y registrar cuándo se concreta el intercambio.

@@ -1,0 +1,8 @@
+Una plataforma de participación ciudadana maneja datos sensibles de los usuarios, como identidad, opiniones y ubicación, por lo que requiere una base de datos para almacenar esta información de forma estructurada y segura.
+La autenticación de usuarios es fundamental para garantizar que cada persona sea quien dice ser, evitando suplantaciones y asegurando que cada voto o propuesta sea legítimo y trazable.
+Sin autenticación, cualquier usuario anónimo podría votar múltiples veces o hacerse pasar por otro ciudadano, invalidando todo el proceso participativo.
+La base de datos permite registrar el historial de participación, consultar resultados en tiempo real y generar informes confiables para la toma de decisiones.
+La protección de la información es obligatoria para resguardar datos personales como nombres, correos, documentos de identidad y preferencias políticas.
+Exponer estos datos públicamente vulneraría la privacidad de los ciudadanos, pudiendo generar discriminación, acoso o represalias por sus opiniones.
+Además, la protección evita ciberataques que podrían manipular resultados, robar identidades o corromper la confianza en la plataforma y en las instituciones.
+En resumen, base de datos, autenticación y protección son pilares indispensables para garantizar transparencia, legitimidad y confianza en cualquier sistema de democracia digital.
